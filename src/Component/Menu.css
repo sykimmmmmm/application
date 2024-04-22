@@ -1,0 +1,15 @@
+.menu:hover{
+    background-color: blue;
+}
+.menu{
+    flex-grow:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    font-size:2rem;
+    font-weight:bold;
+    color:white;
+    border-bottom:2px solid white;
+    text-decoration: none;
+}

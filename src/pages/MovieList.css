@@ -1,0 +1,12 @@
+.movies-container{
+    width: 800px;
+    margin: 10vh auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.movies-container a{
+    box-sizing: border-box;
+    border: 1px solid white;
+    width: 400px;
+    padding: 10px;
+}

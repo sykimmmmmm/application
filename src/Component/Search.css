@@ -1,0 +1,55 @@
+.input-box{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+
+.Search{
+    all: unset;
+    margin: 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.Search::placeholder{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.brown{
+    border: 2px solid brown;
+    color: brown;
+}
+.brown::placeholder{
+    color: brown;
+}
+
+.lightgreen{
+    border: 2px solid lightgreen;
+    color: lightgreen;
+}
+.lightgreen::placeholder{
+    color: lightgreen;
+}
+.slateblue{
+    border: 2px solid slateblue;
+    color: slateblue;
+}
+.slateblue::placeholder{
+    color: slateblue;
+}

@@ -1,0 +1,19 @@
+.sidebar{
+    width:30%;
+    height: 100vh;
+    background-color: slateblue;
+    position: absolute;
+    left: -30%;
+    top: 0;
+    transition: all .7s ease-in-out;
+}
+.sidebar-menus{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.open{
+    left: 0;
+}

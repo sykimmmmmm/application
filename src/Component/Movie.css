@@ -1,0 +1,11 @@
+.Movie-container{
+    width: 400px;
+    margin: 5vh auto;
+    padding: 20px;
+    background: slateblue;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.Movie-container h1{
+    color: white;
+}
